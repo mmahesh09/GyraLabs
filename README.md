@@ -5,3 +5,23 @@ GLabs is an AI-powered prompt-to-agent platform that transforms natural-language
 
 Rather than treating prompts as static text, GLabs evaluates, optimizes, and operationalizes them—turning user intent into executable agent logic compatible with workflow automation tools such as n8n.
 
+
+## 📌 Index
+
+→ [About GLabs](#about-glabs)  
+→ [Problem Statement](#problem-statement)  
+→ [Core Features](#core-features)  
+→ [How It Works](#how-it-works)  
+→ [Workflow & Agent Generation](#workflow--agent-generation)  
+→ [Template Library](#template-library)  
+→ [Use Cases](#use-cases)  
+→ [Architecture Overview](#architecture-overview)  
+→ [Getting Started](#getting-started)  
+→ [Installation](#installation)  
+→ [Configuration](#configuration)  
+→ [Usage](#usage)  
+→ [Roadmap](#roadmap)  
+→ [Contributing](#contributing)  
+→ [Security](#security)  
+→ [License](#license)
+
