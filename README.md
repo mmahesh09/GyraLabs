@@ -2,9 +2,9 @@
 # GyraLabs — Where Prompts Become Agents 🤖
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/mmahesh09/GLabs?style=for-the-badge&logo=github" />
-  <img src="https://img.shields.io/github/forks/mmahesh09/GLabs?style=for-the-badge&logo=github" />
-  <img src="https://img.shields.io/github/issues/mmahesh09/GLabs?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/github/stars/mmahesh09/GyraLabs?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/github/forks/mmahesh09/GyraLabs?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/github/issues/mmahesh09/GyraLabs?style=for-the-badge&logo=github" />
 </p>
 
 <p align="center">
