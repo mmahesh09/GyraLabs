@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# GyraLabs — Where Prompts Become Agents 🤖
 
-First, run the development server:
+<p align="center">
+  <img src="https://img.shields.io/github/stars/mmahesh09/GyraLabs?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/github/forks/mmahesh09/GyraLabs?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/github/issues/mmahesh09/GyraLabs?style=for-the-badge&logo=github" />
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<p align="center">
+  <img src="https://img.shields.io/badge/AI--Powered-Yes-7C3AED?style=for-the-badge&logo=openai" />
+  <img src="https://img.shields.io/badge/Agentic--AI-Enabled-0EA5E9?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Automation-n8n--Ready-F97316?style=for-the-badge&logo=n8n" />
+</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Active%20Development-22C55E?style=flat-square" />
+  <img src="https://img.shields.io/badge/Built%20For-Developers%20%26%20Teams-2563EB?style=flat-square" />
+  <img src="https://img.shields.io/badge/Prompt--to--Agent-Platform-9333EA?style=flat-square" />
+</p>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+GyraLabs is an AI-powered prompt-to-agent platform that transforms natural-language prompts into structured, production-ready AI agents and automated workflows. It is designed to help developers, automation engineers, and AI practitioners bridge the gap between prompt engineering and real-world automation.
 
-To learn more about Next.js, take a look at the following resources:
+Rather than treating prompts as static text, GyraLabs evaluates, optimizes, and operationalizes them—turning user intent into executable agent logic compatible with workflow automation tools such as n8n.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📌 Index
 
-## Deploy on Vercel
+→ [About GyraLabs](#about-gyralabs)  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+→ [Problem Statement](#problem-statement)  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+→ [Core Features](#core-features) 
+
+→ [How It Works](#how-it-works)  
+
+→ [Workflow & Agent Generation](#workflow--agent-generation) 
+
+→ [Template Library](#template-library)
+
+→ [Use Cases](#use-cases)  
+
+→ [Architecture Overview](#architecture-overview)  
+
+→ [Getting Started](#getting-started)  
+
+→ [Installation](#installation)  
+
+→ [Configuration](#configuration) 
+
+→ [Usage](#usage) 
+
+→ [Roadmap](#roadmap) 
+
+→ [Contributing](#contributing)  
+
+→ [Security](#security) 
+
+→ [License](#license)
+
