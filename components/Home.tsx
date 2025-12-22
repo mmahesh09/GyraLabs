@@ -10,6 +10,7 @@ import { Particles } from "@/components/ui/particles";
 import { Features } from "@/components/features-4";
 import Bento from "@/components/Bento";
 import { TestimonialsSectionDemo } from "@/components/test";
+import Pricing from "@/components/pricing-component";
 
 /* ========================== SOCIAL PROOF DATA ========================= */
 const avatars = [
@@ -106,7 +107,8 @@ export default function Home() {
 
           {/* CTA */}
           <div className="mt-16 flex flex-wrap items-center justify-center gap-8">
-            <button
+            <a
+              href="/peanut"
               className="
                 inline-flex items-center gap-2
                 rounded-full bg-purple-600 px-8 py-3
@@ -117,7 +119,7 @@ export default function Home() {
               "
             >
               Start for free →
-            </button>
+            </a>
 
             <button className="text-sm font-medium text-neutral-300 hover:text-white">
               Explore Docs →
@@ -162,6 +164,9 @@ export default function Home() {
 
       {/* ========================= TESTIMONIALS ========================= */}
       <TestimonialsSectionDemo />
+
+      {/* =========================== PRICING =========================== */}
+      <Pricing />
     </main>
   );
 }

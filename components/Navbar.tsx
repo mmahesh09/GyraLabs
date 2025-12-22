@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
+import Link from "next/link";
 
 export default function Navbar() {
   useEffect(() => {
@@ -24,20 +25,27 @@ export default function Navbar() {
         className="
           mx-auto mt-4 flex h-16 max-w-7xl items-center justify-between px-6
           rounded-2xl
+          bg-black/50 backdrop-blur-md border border-white/5
           shadow-[0_8px_30px_rgba(0,0,0,0.5)]
         "
       >
         {/* Logo */}
-        <div className="text-lg font-semibold text-white">
+        <Link href="/" className="text-lg font-semibold text-white">
           Gyra<span className="text-purple-400">Labs</span>
-        </div>
+        </Link>
 
         {/* Nav links */}
         <nav className="hidden items-center gap-8 text-sm md:flex">
-          {["Home", "Features", "Docs", "Pricing"].map((item) => (
+          {[
+            { name: "About", href: "/about" },
+            { name: "Blog", href: "/blog" },
+            { name: "Peanut", href: "/peanut" },
+            { name: "Contact", href: "/contact" },
+            { name: "Pricing", href: "/pricing" },
+          ].map((item) => (
             <a
-              key={item}
-              href="#"
+              key={item.name}
+              href={item.href}
               className="
                 relative text-neutral-400
                 transition-all duration-300
@@ -49,7 +57,7 @@ export default function Navbar() {
                 hover:after:w-full
               "
             >
-              {item}
+              {item.name}
             </a>
           ))}
         </nav>
